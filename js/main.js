@@ -54,7 +54,7 @@ var three = new Slide(
 
 );
 var four = new Slide(
-  "../images/4.jpg",
+  "./images/4.jpg",
 
 );
 
