@@ -40,30 +40,22 @@ function Slide(title, subtitle, background, link) {
 // Creating our slide objects, you can make as many as you want
 
 var one = new Slide(
-  "The Walking Dead",
-  "A show about fighting zombies",
   "./images/1.jpg",
-  "#"
+
 );
 
 var two = new Slide(
-  "The Big Bang Theory",
-  "A show about Sheldon",
   "./images/2.jpg",
-  "#"
+
 );
 
 var three = new Slide(
-  "The Last Man on Earth",
-  "A show about loneliness",
   "./images/3.jpg",
-  "#"
+
 );
 var four = new Slide(
-  "The Last Man on Earth",
-  "A show about loneliness",
   "../images/4.jpg",
-  "#"
+
 );
 
 /*-----------------------------------------------------------------
