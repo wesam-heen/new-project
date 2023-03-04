@@ -39,24 +39,12 @@ function Slide(title, subtitle, background, link) {
 
 // Creating our slide objects, you can make as many as you want
 
-var one = new Slide(
-  "./images/1.jpg",
+var one = new Slide("", "", "./images/1.jpg", "#");
 
-);
+var two = new Slide("", "", "./images/2.jpg", "#");
 
-var two = new Slide(
-  "./images/2.jpg",
-
-);
-
-var three = new Slide(
-  "./images/3.jpg",
-
-);
-var four = new Slide(
-  "./images/4.jpg",
-
-);
+var three = new Slide("", "", "./images/3.jpg", "#");
+var four = new Slide("", "", "./images/4.jpg", "#");
 
 /*-----------------------------------------------------------------
 -----------------------------------------------------------------
