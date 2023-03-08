@@ -48,6 +48,7 @@ ul {
   position: relative;
   overflow: hidden;
 }
+
 .navbar .nav-item:not(:last-child) ::before {
   content: "";
   position: absolute;
@@ -59,6 +60,7 @@ ul {
   transform: translateX(-50%);
   transition: var(--main-transition);
 }
+.navbar .nav-item.active:not(:last-child) ::before,
 .navbar .nav-item:hover:not(:last-child) ::before {
   width: 50%;
 }
@@ -327,3 +329,9 @@ h4 {
   background-color: #25d366;
 }
 /* End Footer */
+/*start copy right */
+.copyright {
+  background-color: #232323;
+  color: var(--white-color);
+}
+/*end copy right */

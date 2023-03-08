@@ -1,0 +1,76 @@
+.our-team,
+.about-us {
+  background-image: linear-gradient(45deg, #2c2b30, #2c2b3080);
+}
+.main-title-about {
+  position: relative;
+  text-align: center;
+  margin: auto;
+  width: fit-content;
+  color: var(--white-color);
+}
+.main-title-about::before {
+  position: absolute;
+  content: "";
+  width: 50%;
+  height: 2px;
+  background-color: var(--secondary-color);
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.about-image {
+  background-color: #ffffff10;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #eee;
+}
+.about-image img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.about-text h3 {
+  color: #fff;
+}
+.about-text p {
+  line-height: 1.8;
+}
+.box-team {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.cover-image img {
+  height: 200px;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.description {
+  padding-top: 20px;
+}
+.multi-select {
+  margin: 40px auto;
+}
+.description p {
+  color: #999;
+}
+.buttons button {
+  margin: 30px auto;
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+  padding: 10px;
+  outline: none !important;
+  border: none;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: 0.5s;
+  opacity: 0.6;
+}
+.buttons button:hover,
+.buttons button.active {
+  opacity: 1;
+}
